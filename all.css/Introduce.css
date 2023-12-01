@@ -1,0 +1,96 @@
+/*Giới thiệu*/
+
+.Introduce__banner {
+    height: 600px;
+    background-image: url(https://tindep.com/wp-content/uploads/2023/03/background-trang-tinh-khoi---nhe-nhang-nhin-la-yeu-6.jpg); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.Introduce__container {
+    background-color: unset;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.align-content-center {
+    align-content: center!important;
+}
+
+.align-self-center {
+    align-self: center!important;
+}
+
+.align-baseline {
+    vertical-align: baseline!important;
+}
+
+.Introduce__container-column-7 {
+    margin-top: 50px;
+    padding: 30px 12px;
+    width: 60%;
+}
+
+.Introduce__container-column-5 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 40%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.Introduce__menu {
+    width: 100%;
+}
+
+.HaHaHome__switch {
+    height: 200px;
+    width: 500px;
+    border-radius: 200px;
+/*  background-image: linear-gradient(110deg,#2dca3a,#ccfdc8); */
+    border: 0 solid var(--main-color);
+    border-bottom-width: 5px;
+    transform: translate(0%, -30%);
+    margin: auto;
+}
+
+.Introduce__container-list {
+    list-style: none;
+}
+
+.Introduce__container-item {
+    width: 550px;
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid var(--main-color);
+    border-left-width: 8px;
+    margin: 10px 8px;
+    padding: 8px 16px;
+    display: inline-block;
+    text-align: left;
+}
+
+.Introduce__container-item-icon {
+    font-size: 4rem;
+    color: var(--main-color);
+    margin-top: 16px;
+}
+
+.Introduce__footer {
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #a2c7a7;
+}
+
+.Introduce__footer-icon {
+    font-size: 5rem;
+    color: var(--main-color-bold);
+    margin: 0 10px;
+}

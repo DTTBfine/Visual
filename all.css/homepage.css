@@ -1,0 +1,58 @@
+/*Trang chủ*/
+
+/*category*/
+.category {
+    height: 650px;
+    background-color: var(--white-color);
+    border-radius: 5px; 
+}
+
+.category__heading {
+    color: var(--main-color);
+    font-size: 2.5rem;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.category__heading-icon {
+    color: var(--main-color);
+    font-size: 2.5rem;
+    margin-right: 8px;
+}
+
+.category-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.category-item {
+    color: var(--black-color);
+    padding: 10px;
+
+}
+
+.category-item--active .category-item__link {
+    color: var(--main-color);
+}
+
+.category-item__link {
+    position: relative;
+    color: var(--text-color);
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    transition: right linear 0.1s;
+    right: 0;
+}
+
+.category-item__link:hover {
+    right: -4px;
+    color: var(--main-color);
+}
+
+.category-item__link-icon {
+    font-size: 2rem;
+    color: var(--main-color);
+    margin-right: 8px;
+}

@@ -1,0 +1,19 @@
+.instruction__header {
+    height: 120px;
+    width: 100%;
+    padding-top: 20px;
+    border: 0 solid var(--main-color);
+    border-bottom-width: 3px;
+}
+
+.instruction__content {
+    height: 100%;
+    margin-top: 25px;
+    background-color: var(--white-color);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: color-mix(in srgb, #afe29a 50%,#c9c5cf 100%);
+    border-image-slice: 1;  
+}
+

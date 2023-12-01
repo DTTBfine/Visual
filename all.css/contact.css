@@ -1,0 +1,43 @@
+.contact__container {
+    background-color: unset;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.contact__container-header {
+    height: 150px;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.contact__container-item {
+    height: 300px;
+    text-align: center;
+}
+.text__light{
+    font-size: 2rem; 
+    font-weight: 400; 
+    line-height: 3rem;
+    color: var(--text-color);
+}
+
+.text__light:hover {
+    background: -webkit-linear-gradient(0deg,#e84452 0%,#6119da 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact__container-item-icon {
+    padding:0%;
+}
+
+.contact__container-item-text {
+    height: 250px;
+    width: 100%;
+    border-radius: 100px;
+    background-color: var(--white-color);
+    padding: 50px 0;  
+    transform: translate(0%,-30%);
+}
