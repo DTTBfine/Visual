@@ -1,16 +1,25 @@
 /*form*/
-.form {
+.form_page {
+
+}
+
+.form__container {
+    width: 800px;
+    background-color: var(--white-color);
+    margin: 100px 300px;
+    border-radius: 50px;
+}
+
+.form__header {
     height: 100%;
     width: 100%;
-    background-color: var(--white-color);
-}
-.form__header {
     text-align: center;
-    margin-top: 50px;
+    padding-top: 120px;
 }
 
 .form__heading-h1 {
-    color: var(--main-color);
+    color: var(--white-color);
+    line-height: 4rem;
 }
 
 .form__heading-h2 {
@@ -18,13 +27,8 @@
 }
 
 .form__body {
-    margin: 4px 35px;
-    padding-bottom: 10px;
     background-color: unset;
     border-width: 3px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: color-mix(in srgb, #afe29a 50%,#c9c5cf 100%);
     border-image-slice: 1; 
 }
 
@@ -32,12 +36,11 @@
 .form__title {
     font-size: 2.5rem;
     text-align: center;
-    color:#5f9463;
-    margin-top: 16px;
+    line-height: 4rem;
 }
 
 .form__group {
-    padding: 0 25px;
+    padding: 0 12px;
 }
 
 .form__input, .form__menubutton {
@@ -58,7 +61,7 @@
 small {
     padding-left: 5px;
     line-height: 2rem;
-    color: red;
+    color: rgb(172, 60, 23);
 }
 
 .form__controls {
@@ -68,6 +71,7 @@ small {
     display: flex;
     justify-content: flex-end;
     padding-top: 16px;
+    margin-bottom: 20px;
 }
 
 .form__switch-text {
@@ -80,7 +84,9 @@ small {
 .form__switch-text:hover {
     cursor: pointer;
     font-size: 2.1rem;
-    color: var(--main-color-bold);
+    background: -webkit-linear-gradient(0deg,#e84452 0%,#6119da 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .form__controls-btn {

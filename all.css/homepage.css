@@ -48,7 +48,9 @@
 
 .category-item__link:hover {
     right: -4px;
-    color: var(--main-color);
+    background: -webkit-linear-gradient(0deg,#e84452 0%,#6119da 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .category-item__link-icon {

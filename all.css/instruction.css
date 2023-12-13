@@ -2,8 +2,16 @@
     height: 120px;
     width: 100%;
     padding-top: 20px;
-    border: 0 solid var(--main-color);
+    border-style: solid;
+    border-bottom-color: color-mix(in srgb, #1447e2 50%,#e0386a 100%);
     border-bottom-width: 3px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    background: -webkit-linear-gradient(0deg,#e84452 0%,#6119da 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .instruction__content {
@@ -17,3 +25,9 @@
     border-image-slice: 1;  
 }
 
+.instruction__header-item {
+    font-size: 4rem; 
+    font-weight: 600; 
+    color: var(--main-color-bold); 
+    text-align: left;
+}

@@ -65,7 +65,7 @@
 }
 
 .Introduce__container-item {
-    width: 550px;
+    width: 100%;
     height: 200px;
     border-radius: 15px;
     border: 2px solid var(--main-color);
