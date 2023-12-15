@@ -1,3 +1,4 @@
+
 var homepage = document.getElementById("Trang-chu");
 var introduce = document.getElementById("Gioi-thieu");
 var instruction = document.getElementById("Huong-dan");

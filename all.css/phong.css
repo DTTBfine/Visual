@@ -1,0 +1,125 @@
+.Phong__main {
+    margin: auto;
+    width: 1200px;
+    padding: 50px;
+}
+
+.Phong__image {
+    border-width: 5px;
+    border-color: #9e9c9c;
+    background-color: var(--white-color);
+    height: 500px;
+}
+
+.Phong__name {
+    padding-left: 12px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+
+.Phong__price {
+    height: 85px;
+    width: 100%;
+    border-top: 1.5px solid #b8b4b4;
+    border-bottom: 1.5px solid #b8b4b4;
+}
+
+.Phong__navbar-list {
+    list-style: none;
+    align-items: center;
+}
+
+.Phong__navbar-item {
+    width: 30%;
+    display: inline-block;
+    padding: 0 12px;
+    text-align: center;
+    font-size: 2rem; 
+    font-weight: 400; 
+    line-height: 2.5rem;
+    color: var(--text-color);
+}
+
+.Phong__right {
+    height: 100%;
+    width: 100%;
+    border-width: 5px;
+    border-color: #9e9c9c;
+    background-color: var(--white-color);
+    padding-top: 25px;
+
+}
+
+.Phong__infor {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.Phong__infor-text {
+    width: 95%;
+    margin:auto;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+.Phong__feat {
+    width: 100%;
+
+}
+
+.Phong__feat-list {
+    width: 80%;
+    margin:auto;
+}
+
+.Phong__section-title {
+    font-family: "Lexend Medium",Roboto,Arial !important;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal !important;
+    letter-spacing: -.2px;
+    color: #2C2C2C;
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.Phong__feat-item {
+    border-bottom: 1px solid #F2F2F2;
+    width: calc(100% - 15px);
+    float: left;
+}
+
+.Phong__feat-item-icon {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    float: left;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 24px;
+    height: 24px;
+}
+
+.Phong__feat-item-title {
+    float: left;
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 128px;
+    font-family: "Roboto Medium",Roboto,Arial !important;
+    font-size: 1.4rem;
+    line-height: 24px;
+    font-weight: 500 !important;
+    color: var(--black-color);
+}
+.Phong__feat-item-value {
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 100%;
+    font-family: "Roboto Regular",Roboto,Arial !important;
+    font-size: 1.4rem;
+    line-height: 24px;
+    font-weight: normal !important;
+    color: #2C2C2C;
+}

@@ -1,3 +1,26 @@
+const sql = require('mssql');
+
+// Cấu hình thông tin kết nối
+const config = {
+  user: 'pc',
+  password: '',
+  server: 'DESKTOP-MSJL6VH',
+  database: 'QLPhongtro',
+  options: {
+    encrypt: false, // Sử dụng mã hóa SSL
+  },
+};
+
+// Kết nối với SQL Server
+sql.connect(config).then(() => {
+  console.log('Connected to SQL Server');
+}).catch((err) => {
+  console.error('Error connecting to SQL Server:', err);
+});
+
+
+
+
 var phonenumber = document.querySelector('#Phonenumber');
 var email = document.querySelector('#Email');
 var username = document.querySelector('#Username');

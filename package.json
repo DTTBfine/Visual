@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@azure/msal-node": "^2.6.0",
+    "express": "4.18.2",
+    "mssql": "^10.0.1"
+  },
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "project 1 cua tui",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "respository": {
+    "type": "git",
+    "url": "git+https://github.com/DTTBfine/Visual"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "Do Thanh Binh",
+  "license": "ISC"
+}
